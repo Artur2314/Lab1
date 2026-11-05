@@ -1,5 +1,5 @@
 CREATE TABLE client (
-    client_code INT PRIMARY KEY,
+    client_code SERIAL PRIMARY KEY,
     last_name VARCHAR(50) NOT NULL,
     first_name VARCHAR(50) NOT NULL,
     patronymic VARCHAR(50),
